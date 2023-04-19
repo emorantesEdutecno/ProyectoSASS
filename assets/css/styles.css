@@ -1,0 +1,63 @@
+/*selector por tag */
+/*
+header{
+    background-color: aqua;
+}
+*/
+
+/*estilos para el bloque*/
+.header{
+
+}
+
+/*estilos para los elementos*/
+
+.header__button{
+    background-color: chartreuse;
+}
+
+.header__navigation{
+
+}
+
+.header__navigation--night{
+    color: white;
+}
+
+
+.header__navigation__list{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    background-color: aqua;
+}
+
+.header__navigation__list--night{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    background-color: black;
+}
+
+
+.header__navigation__item{
+    background-color: orange;
+}
+
+.header__navigation__item--night{
+    background-color: black;
+}
+
+
+/* estilos para los modificadores*/
+.header__navigation__item--active{
+    color: gray;
+    font-size: 19px;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+}
+
+
+
+
+
